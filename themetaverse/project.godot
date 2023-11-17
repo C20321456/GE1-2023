@@ -30,7 +30,7 @@ project/assembly_name="Themetaverse"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/gdscript_input_field/plugin.cfg", "res://addons/godot-xr-tools/plugin.cfg")
 
 [input]
 
