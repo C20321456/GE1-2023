@@ -30,7 +30,11 @@ project/assembly_name="Themetaverse"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdscript_input_field/plugin.cfg", "res://addons/godot-xr-tools/plugin.cfg")
+enabled=PackedStringArray()
+
+[filesystem]
+
+import/fbx/enabled=false
 
 [input]
 
@@ -74,10 +78,6 @@ move_down={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":12,"pressure":0.0,"pressed":true,"script":null)
 ]
 }
-
-[physics]
-
-3d/default_gravity=0.1
 
 [rendering]
 
